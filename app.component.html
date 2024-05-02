@@ -1,5 +1,5 @@
-<app-child [var1]="data">
+<h1>{{data}}</h1>
+
+<app-child  (xyz) ="updatedata($event)">
 
 </app-child>
-
-<button (click)="updatedata()">Click Me </button>

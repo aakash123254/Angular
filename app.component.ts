@@ -10,9 +10,10 @@ import { ChildComponent } from "./child/child.component";
     imports: [RouterOutlet, ChildComponent]
 })
 export class AppComponent {
-  title = 'input-output-6';
-  data=10;
-  updatedata(){
-    this.data+=1;
+  title = 'input-output-7';
+  data="x";
+  
+  updatedata(item:string){
+    this.data=item;
   }
 }
